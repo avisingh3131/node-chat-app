@@ -12,7 +12,6 @@ var io=socketIo(server);
 
 app.use(express.static(publicPath));
 
-<<<<<<< HEAD
 io.on('connection',(socket)=>{
     console.log('New user connected');
 
@@ -24,10 +23,7 @@ io.on('connection',(socket)=>{
 
 server.listen(port,()=>{
     console.log(`server is up on ${port}`);
-=======
-app.listen(port,()=>{
-    console.log('server is up on port 3000');
->>>>>>> 1ead9043388effa0c7d3663ed2078c289060ce98
+
 });
 
 
