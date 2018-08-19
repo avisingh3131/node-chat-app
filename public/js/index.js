@@ -11,8 +11,4 @@ var socket= io();
         console.log('New Message',message);
         });
 
-        socket.emit('createMessage',{
-            from:'Ram',
-            text:"Hey! HOW ARE YOU"
-    
-        });
+        
